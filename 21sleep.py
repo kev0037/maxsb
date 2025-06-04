@@ -9,7 +9,7 @@ async def on_ready():
 
 @bot.event
 async def on_message(message):
-    if message.author.name == "raydongg":
+    if message.author.name == "USERNAME":
         try:
             await message.add_reaction("💀")
         except Exception as e:
@@ -17,4 +17,4 @@ async def on_message(message):
 
 
 
-bot.run("MTMwMjMzNDIwMjY4MjkzNzQ2OA.G-vjAG.AEeQ5hAqNdmbufvXwjzDOD28OaPlaR77EevZv8")
+bot.run("TOKEN")
